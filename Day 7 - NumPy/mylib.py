@@ -1,9 +1,9 @@
 # mylib.py — a tiny demo library for beginners
 
 
-APP_NAME = "TinyTools"
+LIB_NAME = "TinyTools"
 
-def greet(name):
+def greeti(name):
     return "Hello, " + name + "! 👋"
 
 def add(a, b):
@@ -21,6 +21,6 @@ def mood(n):
 # Quick self-test if you run this file directly:
 if __name__ == "__main__":
     print("Running", APP_NAME)
-    print(greet("Coder"))
+    print(greeti("Coder"))
     print("2 + 3 =", add(2, 3))
     print("Mood(2):", mood(2))
