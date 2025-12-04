@@ -1,6 +1,6 @@
 # Simple functions that we’ll import from the package
 
-APP_NAME = "TinyPkg"
+APP_NAME = "Idrees"
 
 def greet(name):
     return "Hello, " + name + "! 👋"
